@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" media="screen and (max-width: 768px)"href="css/mobile.css">
+  <link rel="stylesheet" media="screen and (min-width:1100px)"href="css/widescreen.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js"></script>
+  <title>SodDans LLC</title>
+</head>
+<body id="home">
+  <!-- main menu -->
+  <div id="navbar">
+    <h1 class="logo">
+      <span class="text-primary">
+        <i class="fas fa-book-open"></i> Sod
+      </span>Dans
+    </h1>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#product">Product</a></li>
+      <li><a href="#who">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+  <!-- Header showcase -->
+  <header id="showcase">
+    <div class="showcase-content">
+      <h1 class="l-heading">Sod Dans</h1>
+      <p class = "lead">aldifugj nsoidfjgpoi sedjgpoijgasl;dkfnga asduhfiuashf</p>
+      <a href="#product" class="btn">detail</a>
+    </div>
+  </header>
+
+  <!-- section: product -->
+  <section id="product" class="bg-ligth py-1">
+    <div class="container">
+      <h2 class="m-heading text-center">Product<span class="text-primery">
+        <div class="items">
+          <div class="item">
+          <i class="fas fa-Electric fa-2x"></i>
+          <h3>Electric</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, quos?</p>
+        </div>
+          <div class="item">
+          <i class="fas fa-construction drawings fa-2x"></i>
+          <h3>Construction drawings</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, quos?</p>
+        </div>
+          <div class="item">
+          <i class="fas fa-advice fa-2x"></i>
+          <h3>Advice</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, quos?</p>
+        </div>
+        </div>
+      </span> 
+
+      </h2>
+    </div>
+  </section>
+  <!-- section who are we ?-->
+  <section id="who">
+    <div class="who-img"></div>
+    <div class="who-text bg-dark p-2">
+      <h2 class="m-heading"><span class="text-primary"> who </span>are we ?
+      </h2>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque, eos.</p>
+      <h3>Management team</h3>
+      <ul class="list">
+        <li>Radomir Sodomka Director</li>
+        <li>Densenbal Dansran Accountant</li>
+        <li>Baterdene Daansuren Engineer</li>
+        <li>Dulamkhand Batjargal Engineer</li>
+        <li>Ganbaatar Duurenhundaga Manager</li>
+      </ul>
+    </div>
+  </section>
+  <!-- Sponsor -->
+  <section id="client" class="py-1">
+    <div class="container">
+      <h2 class="m-heading"><span class="text-primary">Sponsor</span> client
+      </h2>
+      <div class="items py-1" >
+          <div><img src="./img/logos/logo1.jpg" alt="clients"></div>
+          <div><img src="./img/logos/logo.jpg" alt="clients"></div>
+      </div>
+    </div>
+  </section>
+  <!-- section: contact -->
+  <section class="contact" id="contact">
+    <div class="contact-form bg-primary p-2">
+      <h2 class="m-heading"contact><p>Get in touch with us thanks.</p></h2>
+      <form>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" placeholder="name">  
+        </div>
+        <div class="form-group">
+          <label for="name">E-mail</label>
+          <input type="email" name="email" id="email" placeholder="email">  
+        </div>
+        <div class="form-group">
+          <label for="name">Phone</label>
+          <input type="text" name="phone" id="phone" placeholder="phone">  
+        </div>
+        <div class="form-group">
+          <label for="name">Massage</label>
+          <textarea name="name" id="name" placeholder="massage">  
+          </textarea>
+        </div>
+        <input type="submit" value="submit" class="btn btn-dark">
+      </form>
+    </div>
+    <div id="map" class="map">
+    </div>
+    <script async
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBIZiNI86KcR2yxR1KMwxLvZzeguC6Yo0A&callback=initMap">
+    </script>
+  </section>
+
+</body>
+</html>
